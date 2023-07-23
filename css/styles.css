@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    
+}
+
+#cls{
+    color:blueviolet;
+}
+
+.bannerBgImage{
+    height: 115vh;
+    background:url("/Images/Wallpaper.jpg");
+    background-size:cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+}
+
+.bannrtTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:rgb(233, 118, 156);
+    border:5px solid rgb(138, 182, 49);
+}
+.bIcon{
+    width:100%;
+    text-align: centre;
+    font-size:40px;
+}
+.img-fluid:hover{
+    
+}
